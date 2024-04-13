@@ -37,3 +37,10 @@ def set_png_as_page_bg(png_file):
     return
 
 set_png_as_page_bg('bg.png')
+
+
+st.subheader('Resume Builder Assistant')
+
+with st.form('main'):
+    summary = st.text_area('Summary to analyse',placeholder='I worked here for a period of 3 years with experience in so and so projects')
+    btn = st.form_submit_button('Analyse')

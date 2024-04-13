@@ -80,3 +80,7 @@ with st.form('main'):
             summary_final = generate_output(summary,model)
             summary_final = summary_final.replace('/n','</br>')
             st.markdown(summary_final)
+    elif btn and summary == '':
+        st.error('Please enter a summary ')
+    else:
+        st.error('Please enter a summary of atleast 100 words')

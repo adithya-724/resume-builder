@@ -17,7 +17,7 @@ h3{
 
  textarea[aria-label='Summary to analyse']{
     border: none;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(105,105,105,0.5);
     /* box-shadow:  1px 1px 4px #d0d0d0,
               -1px -1px 10px #f0f0f0; */
  }
@@ -32,3 +32,8 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
  [data-testid='stMarkdown']{
     color: #000;
  }
+
+ [data-testid='stMarkdownContainer']{
+    color: #000;
+ }
+ 

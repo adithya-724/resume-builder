@@ -3,7 +3,10 @@ import base64
 from langchain_core.prompts import ChatPromptTemplate,HumanMessagePromptTemplate, SystemMessagePromptTemplate
 from langchain_groq import ChatGroq
 
-
+st.set_page_config(
+        page_title="Resume Assitant",
+        page_icon="chart_with_upwards_trend",
+    )
 
 
 with open('styles.css') as f:
